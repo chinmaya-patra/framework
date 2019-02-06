@@ -10,12 +10,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
+
+import com.healthCareDomain.practo.base.TestBase;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TestingDemo {
+public class TestingDemo extends TestBase{
 
-	public static void main(String[] args) {
+	@Test 
+	public void demo(){
 		 // Create object of HashMap Class
 		Map<String, Object> prefs = new HashMap<String, Object>();
               
