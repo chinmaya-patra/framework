@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TrySuite" duration-ms="42634" started-at="2019-01-28T17:23:29Z" finished-at="2019-01-28T17:24:12Z">
+    <groups>
+    </groups>
+    <test name="patametrsTest" duration-ms="42634" started-at="2019-01-28T17:23:29Z" finished-at="2019-01-28T17:24:12Z">
+      <class name="com.healthCareDomain.practo.testCases.LoginTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.healthCareDomain.practo.testCases.LoginTest@42eca56e]" name="beforeMethod" is-config="true" duration-ms="19464" started-at="2019-01-28T17:23:29Z" finished-at="2019-01-28T17:23:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginToapp001()[pri:0, instance:com.healthCareDomain.practo.testCases.LoginTest@42eca56e]" name="loginToapp001" duration-ms="22348" started-at="2019-01-28T17:23:49Z" finished-at="2019-01-28T17:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToapp001 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.healthCareDomain.practo.testCases.LoginTest@42eca56e]" name="afterMethod" is-config="true" duration-ms="769" started-at="2019-01-28T17:24:11Z" finished-at="2019-01-28T17:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.healthCareDomain.practo.testCases.LoginTest -->
+    </test> <!-- patametrsTest -->
+  </suite> <!-- TrySuite -->
+</testng-results>
