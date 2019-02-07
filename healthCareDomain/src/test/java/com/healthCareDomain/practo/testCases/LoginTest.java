@@ -40,13 +40,13 @@ public class LoginTest extends TestBase{
 	  
 	  System.out.println(homePage.getUserName().toString());
 	  
-	  homePage.chatWithAdoctorPage();
+	 // homePage.chatWithAdoctorPage();
 	  
 	 // assertEquals(pageTitle(),"Practo Accounts" );
 	  
 	  
 	  
-	 homePage.OrderMedicineOnlinePage();
+	// homePage.OrderMedicineOnlinePage();
 	  
 	  
 	  
